@@ -1,0 +1,12 @@
+{
+    "git.ignoreLimitWarning": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "gc-bricks",
+            "database": "${workspaceFolder:gc-bricks}/data/gc.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
